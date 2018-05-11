@@ -25,6 +25,7 @@ public class ChatClient {
         public void notifyObservers(Object arg) {
             super.setChanged();
             super.notifyObservers(arg);
+            System.out.println("Testing!");
         }
 
         /** Create socket, and receiving thread */
