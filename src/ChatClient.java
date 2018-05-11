@@ -24,7 +24,7 @@ public class ChatClient {
         @Override
         public void notifyObservers(Object arg) {
             super.setChanged();
-            super.notifyObservers(arg);
+            super.notifyObservers(arg); 
         }
 
         /** Create socket, and receiving thread */
