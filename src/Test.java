@@ -32,4 +32,4 @@ public class Test {
 		System.out.println("There are " + counter + "common elements");
 	}
 
-}
+} 
